@@ -1,0 +1,10 @@
+# Project exclude paths
+/blockchain-trace-basic-data/fpt-admin/target/
+/blockchain-trace-basic-data/fpt-common/target/
+/blockchain-trace-basic-data/fpt-framework/target/
+/blockchain-trace-basic-data/fpt-generator/target/
+/blockchain-trace-basic-data/fpt-quartz/target/
+/blockchain-trace-basic-data/fpt-system/target/
+/blockchain-trace-basic-data/fpt-traces/target/
+/blockchain-trace-pc/node_modules/
+/Test/target/

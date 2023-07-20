@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/Test/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Test/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/blockchain-trace-basic-data/fpt-admin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/blockchain-trace-basic-data/fpt-admin/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/blockchain-trace-basic-data/fpt-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/blockchain-trace-basic-data/fpt-common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/blockchain-trace-basic-data/fpt-framework/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/blockchain-trace-basic-data/fpt-framework/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/blockchain-trace-basic-data/fpt-generator/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/blockchain-trace-basic-data/fpt-generator/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/blockchain-trace-basic-data/fpt-quartz/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/blockchain-trace-basic-data/fpt-quartz/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/blockchain-trace-basic-data/fpt-system/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/blockchain-trace-basic-data/fpt-system/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/blockchain-trace-basic-data/fpt-traces/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/blockchain-trace-basic-data/fpt-traces/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/blockchain-trace-basic-data/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/blockchain-trace-basic-data/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,45 @@
+
+1. 启动start.sh错误
+docker-compose -f docker-compose.yml up -d
+Creating network "network_basic" with the default driver
+ERROR: Failed to Setup IP tables: Unable to enable SKIP DNAT rule:  (iptables failed: iptables --wait -t nat -I DOCKER -i br-89c270df654a -j RETURN: iptables: No chain/target/match by that name.
+ (exit sta
+
+在执行docker-compose up -d命令时报如下错误
+
+Creating network "docker_default" with the default driver
+ERROR: Failed to Setup IP tables: Unable to enable SKIP DNAT rule:  (iptables failed: iptables --wait -t nat -I DOCKER -i br-e50975111d95 -j RETURN: iptables: No chain/target/match by that name.
+ (exit status 1))
+
+出现这个错误原因是在ubuntu20.04安装postgresql后无法访问（防火墙没有开通5432端口），直接将防火墙关闭了，然后再启动docker镜像时就报了上面的问题，解决这个问题只需重启docker即可：
+
+systemctl restart docker
+
+
+2.
+
+
+go 安装
+
+1. 下载
+wget https://golang.google.cn/dl/go1.14.4.linux-amd64.tar.gz
+2. 解压
+tar -zxf go1.14.4.linux-amd64.tar.gz -C /usr/local
+3. 编辑环境变量
+vim /etc/profile
+
+追加
+export GOROOT=/usr/local/go
+export GOPATH=/home/hyh/gopath
+export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
+
+
+4. 使换将变量配置生效，并查看golang的版本
+source /etc/profile          ==========使换将变量配置生效
+go version                   ==========查看golang的版本
+go version go1.14.4 linux/amd64        --打印输出
+
+5. 设置代理环境
+go env -w GOPROXY=https://goproxy.cn,direct
+
+
